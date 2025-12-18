@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.Signup"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- HEADER -->
+            <TextView
+                android:id="@+id/signupTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Signup"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#009688"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="16dp" />
+
+            <!-- USERNAME -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:boxStrokeWidth="2dp"
+                app:boxStrokeColor="#1A73E8">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:background="@drawable/roundedt"
+                    android:id="@+id/inputUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Your Username"
+                    android:textColorHint="#777777" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- EMAIL -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:background="#BEC3C2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                app:boxStrokeWidth="2dp"
+                app:boxStrokeColor="#1A73E8">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:background="@drawable/roundedt"
+                    android:id="@+id/inputEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Your Email"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#777777" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- PHONE -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:background="@drawable/roundedt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                app:boxStrokeWidth="2dp"
+                app:boxStrokeColor="#1A73E8">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:background="@drawable/roundedt"
+                    android:id="@+id/inputPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Your Phone Number"
+                    android:inputType="phone"
+                    android:textColorHint="#777777" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- PASSWORD -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:background="@drawable/roundedt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                app:boxStrokeWidth="2dp"
+                app:boxStrokeColor="#1A73E8"
+                app:endIconMode="password_toggle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Your Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="#777777" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- SIGNUP BUTTON -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSignup"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Signup"
+                android:layout_marginTop="22dp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#1A73E8"
+                app:cornerRadius="12dp" />
+
+            <!-- LOGIN REDIRECT -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="Already have an account? "
+                    android:textColor="#555555"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/loginRedirect"
+                    android:text="Login"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textColor="#1A73E8"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- OR DIVIDER -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="24dp">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="#CCCCCC" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Or "
+                    android:textColor="#777777" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="#CCCCCC" />
+            </LinearLayout>
+
+            <!-- FACEBOOK BUTTON -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFacebookSignup"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Login with Facebook"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#1877F2"
+                android:layout_marginTop="20dp"
+                app:icon="@drawable/ic_facebook"
+                app:iconGravity="start"
+                app:iconPadding="12dp"
+                app:iconSize="24dp"
+                app:iconTint="@android:color/white"
+                app:cornerRadius="12dp" />
+
+            <!-- GOOGLE BUTTON -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnGoogleSignup"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Login with Google"
+                android:textColor="#444444"
+                android:backgroundTint="#FFFFFF"
+                android:layout_marginTop="12dp"
+                app:icon="@drawable/ic_google"
+                app:iconGravity="start"
+                app:iconPadding="12dp"
+                app:iconSize="24dp"
+                app:iconTint="@null"
+                app:cornerRadius="12dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

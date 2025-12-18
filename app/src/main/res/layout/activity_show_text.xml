@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textDateDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#009688" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtsummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Summary"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#009688" />
+        <TextView
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/textSummaryDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Summary"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/txtevaluation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Evaluation"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#009688" />
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:id="@+id/textEvaluationDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Evaluation"
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/txtkeypoints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Key Points"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#009688" />
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:id="@+id/textKeyPointsDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Key points"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/textoriginal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Original Text"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#009688" />
+        <TextView
+            android:id="@+id/textOriginalDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Original Text"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>

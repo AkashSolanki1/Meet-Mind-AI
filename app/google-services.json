@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "799371350459",
+    "firebase_url": "https://meetmind-ai-5e18e-default-rtdb.firebaseio.com",
+    "project_id": "meetmind-ai-5e18e",
+    "storage_bucket": "meetmind-ai-5e18e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799371350459:android:a3fd862d15da027848749e",
+        "android_client_info": {
+          "package_name": "com.aktech.meetmindai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf4WbfzM9YYEiTmM8LeHcDaokwc4LODgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
