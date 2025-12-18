@@ -32,22 +32,19 @@ Storage	Firebase + Local JSON
 
 📷 App Screenshots
 🔐 Login Page
-<img width="293" height="574" alt="Login Screen" src="https://github.com/user-attachments/assets/ab7f680a-488e-4923-b6a0-3f7f242acabb" />
+<img width="293" height="574" alt="Login Screen" src="https://github.com/user-attachments/assets/b6290e32-36b0-4220-935c-d97e2dcefbb5" />
 
 📝 Signup Page
-<img width="302" height="567" alt="Signup Screen" src="https://github.com/user-attachments/assets/c2241d04-3972-4771-8d37-63dcfbf7e7b7" />
+<img width="302" height="567" alt="Signup Screen" src="https://github.com/user-attachments/assets/33d0e1eb-ec2d-4046-a428-5d43b793d6e6" />
 
 🎙️ Recorder Page
-<img width="284" height="570" alt="Recorder Screen" src="https://github.com/user-attachments/assets/3064a3b3-7af2-478c-8cf3-6150d89efced" />
-
-🗣️ Live Transcript Page
-<img width="320" height="570" alt="Live Transcript Screen" src="https://github.com/user-attachments/assets/964b4265-6730-44e3-8088-0525eb10b2b2" />
+<img width="284" height="570" alt="Recorder Screen" src="https://github.com/user-attachments/assets/83c4406c-a2e6-41a3-aa4b-23120b180fdf" />
 
 📌 Summary Page
-<img width="317" height="574" alt="Summary Screen" src="https://github.com/user-attachments/assets/4a377c78-8b6a-4d2a-b19f-c832c416e721" />
+<img width="317" height="574" alt="Summary Screen" src="https://github.com/user-attachments/assets/24706b09-9793-419f-bac3-bfa7cfb93d0d" />
 
 🕒 History Page
-<img width="324" height="568" alt="History Screen" src="https://github.com/user-attachments/assets/c3548051-3dce-41b4-b810-23dc6588e7f5" />
+<img width="324" height="568" alt="History Screen" src="https://github.com/user-attachments/assets/b5ba3033-b7ab-4b5e-865d-c201785fbfd4" />
 
 📦 How to Run Locally
 git clone https://github.com/Akash-creator-dot/Meet-Mind-AI.git
