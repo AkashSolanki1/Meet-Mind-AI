@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/de5f8484-3048-44eb-ad5b-0920a6ecb68c
 
 Splash Screen
 Clean and minimal splash screen with MeetMind branding.
-![Profile](https://github.com/user-attachments/assets/d0b0e5ba-c6d8-48cd-b2f4-301dfdb90bd1)
+![Profile](https://github.com/user-attachments/assets/1cd1e1b2-d4cf-49ec-998b-0e7bce3d7120)
 
 Login & Signup
 Secure authentication using Firebase Authentication.
